@@ -5,7 +5,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "expo": "~48.0.0",
@@ -13,11 +15,13 @@
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "0.68.0",
-    "react-native-web": "~0.11.7"
+    "react-native-web": "~0.11.7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
