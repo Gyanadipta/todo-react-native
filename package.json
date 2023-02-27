@@ -15,7 +15,7 @@
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "0.68.0",
-    "react-native-web": "~0.11.7",
+    "react-native-web": "~0.18.12",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
